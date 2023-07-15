@@ -1,0 +1,105 @@
+.content {
+  display: grid;
+  grid-template-columns: 84% 16%;
+}
+.spec_content,
+.Images_content,
+.contact {
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  margin: 10px;
+  position: relative;
+  padding: 4px;
+}
+.bubble_text_title {
+  font-weight: 500;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  margin-top: 6px;
+  border-bottom: rgba(0, 0, 0, 0.4);
+  text-decoration: underline;
+}
+.bubble_text {
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+/* Contacs */
+
+.contacts_box {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.social_box {
+  width: 100px;
+  margin: auto;
+  padding: 6%;
+}
+.social_img {
+  width: 60px;
+  height: 60px;
+}
+.social_img_box {
+  display: flex;
+  justify-content: center;
+}
+.account {
+  top: -10px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 500;
+}
+#si-threads {
+  border-radius: 40%;
+}
+/* CSS for Images Tab */
+
+#Images {
+  position: relative;
+}
+.Images_content {
+  height: 65%;
+  overflow: auto;
+  white-space: nowrap;
+}
+.image {
+  height: 80%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  flex: 33.333333%;
+  padding: 5px;
+}
+#ul_1 {
+  position: absolute;
+  top: 400px;
+  width: 225px;
+  left: 90px;
+}
+#ul_2 {
+  position: absolute;
+  top: 400px;
+  width: 225px;
+  left: 380px;
+}
+#ul_3 {
+  position: absolute;
+  top: 400px;
+  width: 225px;
+  left: 725px;
+}
+
+/* Left side of the page */
