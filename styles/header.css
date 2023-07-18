@@ -24,17 +24,34 @@
 }
 .blog-img {
   position: absolute;
-  right: 30px;
+  right: 40px;
   top: 20px;
 }
+.projects-img {
+  position: absolute;
+  right: 160px;
+  top: 20px;
+}
+.logo-projects-img {
+  height: 38px;
+}
+.icon_text {
+  position: absolute;
+  white-space: nowrap;
+}
+#blog-text {
+  right: 30px;
+  bottom: 20px;
+  position: absolute;
+}
 .blog_text:hover,
-.blog-img:hover ~ .blog_text {
+.blog-img:hover ~ .blog_text,
+#projects-text:hover,
+.projects-img:hover ~ #projects-text {
   color: rgb(100, 100, 100);
   text-decoration: underline;
 }
-.blog_text {
-  position: absolute;
-  right: 20px;
+#projects-text {
+  right: 140px;
   bottom: 20px;
-  white-space: nowrap;
 }
