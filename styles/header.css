@@ -45,10 +45,7 @@
   position: absolute;
 }
 #blog-text:hover,
-.blog-img:hover ~ #blog-text {
-  color: rgb(100, 100, 100);
-  text-decoration: underline;
-}
+.blog-img:hover ~ #blog-text,
 #projects-text:hover,
 .projects-img:hover ~ #projects-text {
   color: rgb(100, 100, 100);
