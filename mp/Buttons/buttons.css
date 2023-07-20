@@ -1,0 +1,60 @@
+.ybutton {
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding-left: 16px;
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opacity 300ms;
+  vertical-align: top;
+}
+.ybutton:hover {
+  opacity: 0.75;
+}
+.ybutton:active {
+  opacity: 0.5;
+}
+.jbutton {
+  background-color: white;
+  border-color: rgb(105, 105, 250);
+  border-style: solid;
+  padding-left: 16px;
+  padding-top: 9px;
+  padding-right: 16px;
+  padding-bottom: 9px;
+  border-width: 1px;
+  color: rgb(105, 105, 250);
+  border-radius: 2px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: background-color 300ms, color 300ms;
+  vertical-align: top;
+}
+.jbutton:hover {
+  background-color: rgb(105, 105, 250);
+  color: white;
+}
+.jbutton:active {
+  opacity: 0.75;
+}
+.tbutton {
+  background-color: rgb(55, 156, 238);
+  color: white;
+  border: none;
+  border-radius: 18px;
+  height: 36px;
+  width: 74px;
+  cursor: pointer;
+  margin-left: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 8px;
+  transition: box-shadow 300ms;
+  vertical-align: top;
+}
+.tbutton:hover {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+}

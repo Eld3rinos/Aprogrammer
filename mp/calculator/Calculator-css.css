@@ -1,0 +1,62 @@
+div {
+  font-family: Arial;
+}
+html {
+  background-color: black;
+}
+main {
+  width: 530px;
+}
+#display {
+  color: white;
+  font-size: 100px;
+  direction: rtl;
+  margin-right: 40px;
+  font-weight: lighter;
+}
+#buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#numb-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.numbers {
+  background-color: rgb(61, 61, 61);
+  border: none;
+  color: white;
+  font-size: 40px;
+  height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  margin: 6px;
+}
+.numbers:hover {
+  background-color: rgb(37, 37, 37);
+}
+#last-line {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+#zero {
+  border-radius: 100px;
+}
+#division {
+  height: 30%;
+  padding-top: 12px;
+}
+#grayB {
+  background-color: lightgray;
+  color: black;
+}
+#grayB:hover {
+  background-color: rgb(170, 170, 170);
+}
+#orangeB {
+  background-color: orange;
+}
+#orangeB:hover {
+  background-color: rgb(196, 127, 0);
+}

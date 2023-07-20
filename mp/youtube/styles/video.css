@@ -1,0 +1,114 @@
+.thumbnail {
+  width: 100%;
+}
+.video-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.profile-picture {
+  width: 36px;
+  border-radius: 50px;
+}
+.thumbnail-row {
+  margin-bottom: 8px;
+  position: relative;
+}
+.video-author,
+.video-stats {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+.video-author {
+  margin-bottom: 4px;
+}
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 40px;
+}
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1250px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+.video-time {
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 2px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 8px;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+.channel-picture {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+}
+.channel-picture .Chbox {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding-top: 7px;
+  padding-bottom: 6px;
+  padding-right: 12px;
+  padding-left: 12px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+  flex-direction: row;
+  background-color: rgb(250, 250, 250);
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  bottom: -24px;
+  left: -10px;
+}
+.Chbox_picture {
+  height: 32px;
+  border-radius: 16px;
+  margin-right: 6px;
+}
+.profile-picture:hover {
+  cursor: pointer;
+}
+.pbox:hover .Chbox {
+  opacity: 1;
+}
+.Chbox_title {
+  font-weight: 500;
+}
+.Chbox_subscribers {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  padding-top: 4px;
+  color: gray;
+}
