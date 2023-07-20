@@ -102,4 +102,11 @@
   left: 725px;
 }
 
-/* Left side of the page */
+/* Resize */
+@media (max-width: 800px) {
+  .content {
+    grid-template-columns: 100%;
+    gap: 40px;
+  }
+}
+
