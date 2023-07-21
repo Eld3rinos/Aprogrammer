@@ -103,9 +103,17 @@
 }
 
 /* Resize */
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .content {
     grid-template-columns: 100%;
-    gap: 40px;
+    gap: 8%;
+  }
+  .social_box {
+    float: left;
+  }
+  .contacts_box {
+    content: "";
+    display: table;
+    clear: both;
   }
 }
