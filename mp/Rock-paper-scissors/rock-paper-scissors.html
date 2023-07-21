@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>RPC - Aprogrammer</title>
+  </head>
+  <body>
+    <h2>Rock-Paper-Scissors Game!</h2>
+    <p>You sure know the rules. Let's play!</p>
+    <button
+      onclick="
+      let choice = '';
+      const randNum = Math.random();
+      if (randNum >= 0 && randNum < 1 / 3) {
+        choice = 'rock';
+      } else if (randNum >= 1 / 3 && randNum < 2 / 3) {
+        choice = 'paper';
+      } else if (randNum >= 2 / 3 && randNum < 1) {
+        choice = 'scissors';
+      }
+      
+      let result = ''; 
+
+      if (choice === 'rock') {
+        result = 'It\'s a tie.'
+      } else if (choice === 'paper') {
+        result = 'You lose.'
+      } else {
+        result = 'You win.'
+      }
+      
+      alert(`You picked rock. Computer's choice is ${choice}. ${result}`)"
+    >
+      Rock
+    </button>
+    <button
+      onclick="
+      let choice = '';
+      const randNum = Math.random();
+      if (randNum >= 0 && randNum < 1 / 3) {
+        choice = 'rock';
+      } else if (randNum >= 1 / 3 && randNum < 2 / 3) {
+        choice = 'paper';
+      } else if (randNum >= 2 / 3 && randNum < 1) {
+        choice = 'scissors';
+      }
+      
+      if (choice === 'rock') {
+        result = 'You win.'
+      } else if (choice === 'paper') {
+        result = 'It\'s a tie.'
+      } else {
+        result = 'You lose.'
+      }
+      
+      alert(`You picked paper. Computer's choice is ${choice}. ${result}`)"
+    >
+      Paper
+    </button>
+    <button
+      onclick="
+      let choice = '';
+      const randNum = Math.random();
+      if (randNum >= 0 && randNum < 1 / 3) {
+        choice = 'rock';
+      } else if (randNum >= 1 / 3 && randNum < 2 / 3) {
+        choice = 'paper';
+      } else if (randNum >= 2 / 3 && randNum < 1) {
+        choice = 'scissors';
+      }
+      
+      if (choice === 'rock') {
+        result = 'You lose.'
+      } else if (choice === 'paper') {
+        result = 'You win.'
+      } else {
+        result = 'It\'s a tie.'
+      }
+      
+      alert(`You picked scissors. Computer's choice is ${choice}. ${result}`)"
+    >
+      Scissors
+    </button>
+    <script></script>
+  </body>
+</html>
