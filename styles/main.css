@@ -66,8 +66,6 @@
 }
 .Images_content {
   height: 65%;
-  overflow: auto;
-  white-space: nowrap;
 }
 .image {
   height: 80%;
@@ -78,28 +76,12 @@
 .row {
   display: flex;
   flex-direction: row;
+  overflow: auto;
+  white-space: nowrap;
 }
 .column {
   flex: 33.333333%;
   padding: 5px;
-}
-#ul_1 {
-  position: absolute;
-  top: 400px;
-  width: 225px;
-  left: 90px;
-}
-#ul_2 {
-  position: absolute;
-  top: 400px;
-  width: 225px;
-  left: 380px;
-}
-#ul_3 {
-  position: absolute;
-  top: 400px;
-  width: 225px;
-  left: 725px;
 }
 
 /* Resize */
@@ -107,7 +89,7 @@
   .content {
     grid-template-columns: 100%;
     gap: 8%;
-    margin-right: 4%;
+    margin-right: 5%;
   }
   .social_box {
     float: left;
