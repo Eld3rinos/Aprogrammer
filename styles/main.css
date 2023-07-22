@@ -107,6 +107,7 @@
   .content {
     grid-template-columns: 100%;
     gap: 8%;
+    margin-right: 4%;
   }
   .social_box {
     float: left;
